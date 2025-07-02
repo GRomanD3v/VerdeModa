@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: grey;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 15px 0;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.logo__img {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+}
+
+.nav {
+  background-color: rgb(135, 196, 35);
+  text-align: center;
+  padding: 10px 0;
+}
+.nav__link {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.nav__link:hover {
+  color: #004d00;
+}
+.nav__link--active {
+  color: green;
+}
+
+.section {
+  padding: 2rem;
+  background-color: white;
+}
+.section--about {
+  background-color: white;
+}
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: green;
+  text-align: center;
+}
+.section__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdeModa</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="assets/img/vm-logo.png" alt="VerdeModa Logo" class="logo__img">
+        </div>
+        <nav class="nav">
+            <a href="#" class="nav__link nav__link--active">HOME</a>
+            <a href="#" class="nav__link">PRODUCTOS</a>
+            <a href="#" class="nav__link">CONTACTO</a>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section section--about">
+            <h2 class="section__title">Vístete consciente, vive con estilo.</h2>
+            <p class="section__text"> En VerdeModa, transformamos la moda en un reflejo de tus valores. Nacimos como una
+                pequeña tienda de
+                ropa sustentable, creciendo gracias a la confianza y recomendación de nuestra comunidad y el impulso
+                de
+                las redes sociales. Lo que empezó como un catálogo en PDF y pedidos por WhatsApp, hoy se convierte
+                en la
+                oportunidad de dar un gran salto.
+
+                Estamos comprometidos con ofrecerte prendas que cuidan el planeta, y ahora, buscamos llevar esa
+                misma
+                filosofía a tu experiencia de compra online. Sabemos que no tienes que ser un experto en tecnología
+                para
+                tener una presencia digital que cautive. Por eso, nuestro equipo está aquí para convertir tu visión
+                en
+                un sitio web responsive, visualmente atractivo y fácil de gestionar, que no solo expanda tu alcance,
+                sino que también fortalezca la conexión con cada cliente.
+
+                En VerdeModa, construimos más que moda; creamos un futuro más verde, un clic a la vez.</p>
+        </section>
+
+                <section class="filter">
+            <h2 class="filter__title">Filtrar por Talla</h2>
+            <select class="filter__select" id="filter-size">
+                <option value="all">Todas las tallas</option>
+                <option value="S">Talla S</option>
+                <option value="M">Talla M</option>
+                <option value="XL">Talla XL</option>
+            </select>
+        </section>
+        
+        <section class="cards">
+            <div class="cards__item">
+                <img src="/assets/img/vm-1.png" alt="Producto 1" class="cards__image">
+                <h3 class="cards__title">Chaqueta Outdoor</h3>
+                <p class="cards__description">Este producto está hecho con materiales reciclados y orgánicos.</p>
+                <p class="cards__description--size">Tallas Disponible: M</p>
+                <a href="#" class="cards__button">Ver más</a>
+            </div>
+
+            <div class="cards__item">
+                <img src="/assets/img/vm-2.png" alt="Producto 2" class="cards__image">
+                <h3 class="cards__title">Chaqueta Hippie</h3>
+                <p class="cards__description">Diseñado para durar y cuidar el medio ambiente.</p>
+                <p class="cards__description--size">Tallas Disponible: M, S</p>
+                <a href="#" class="cards__button">Ver más</a>
+            </div>
+
+            <div class="cards__item">
+                <img src="/assets/img/vm-3.png" alt="Producto 3" class="cards__image">
+                <h3 class="cards__title">Falda Tejido</h3>
+                <p class="cards__description">Ideal para un estilo de vida ecológico y responsable.</p>
+                <p class="cards__description--size">Tallas Disponible: XL, S</p>
+                <a href="#" class="cards__button">Ver más</a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="contact__title">Contáctanos</h2>
+            <form class="contact__form">
+                <input type="email" id="email" name="email" class="contact__input" placeholder="tucorreo@correo.com"
+                    required>
+
+                <button type="submit" class="contact__button">Contactar</button>
+            </form>
+        </section>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">VerdeModa® 2025</p>
+    </footer>
+</body>
+
+</html>
