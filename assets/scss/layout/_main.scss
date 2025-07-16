@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as *;
+
+.main {
+    width: 80%;
+    margin: 50px auto; 
+    border: 1px solid $gris-claro; 
+    padding: 20px;
+}

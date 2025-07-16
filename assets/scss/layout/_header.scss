@@ -1,0 +1,25 @@
+@use "../abstracts/variables" as *;
+
+.navbar {
+    background-color: $gris-claro;
+
+    .navbar-brand img {
+        height: 80px;
+    }
+
+    .nav-link {
+        font-weight: 600;
+        color: #388e3c
+        transition color 0.3 ease;
+
+        &:hover {
+            color: darken( $verde-principal, 10%);
+        }
+        &.active {
+            border-bottom: 2px solid $verde-claro;
+        }
+    }
+    .navbar-toggler {
+        border-color: transparent;
+    }
+}
