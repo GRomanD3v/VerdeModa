@@ -4,9 +4,8 @@ Ejercicio ABP AE4
 ## Nombre
 Gonzalo Román Reyes
 
-## Descripción
-Incorporar al proyecto anterior (verde moda) un
-diseño utilizando el modelo de cajas de CSS (box model)
+## Descripción General del Proyecto
+Este proyecto es una interfaz web responsiva para "VerdeModa". Ha sido construida principalmente con Bootstrap 5 para la estructura y sus componentes, y SASS para una gestión modular y personalizada de los estilos.
 
 ## Ruta del repositorio
 https://github.com/GRomanD3v/VerdeModa
