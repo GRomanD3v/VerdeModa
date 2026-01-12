@@ -1,0 +1,24 @@
+{
+  "name": "verdemoda",
+  "version": "1.0.0",
+  "description": "Ejercicio ABP AE4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRomanD3v/VerdeModa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GRomanD3v/VerdeModa/issues"
+  },
+  "homepage": "https://github.com/GRomanD3v/VerdeModa#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.7"
+  }
+}

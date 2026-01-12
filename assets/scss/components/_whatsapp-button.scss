@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as *;
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  background-color: $verde-principal;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
